@@ -1,0 +1,13 @@
+{
+  "name": "osintx",
+  "version": "1.0.0",
+  "description": "OSINT Open Courseware",
+  "main": "index.js",
+  "scripts": {
+    "build:jekyll": "bundle exec jekyll _3.9.3_ build --incremental --config _offline.yml",
+    "serve:jekyll": "bundle exec jekyll _3.9.3_ serve --incremental --config _offline.yml"
+  },
+  "keywords": [],
+  "author": "kostasx",
+  "license": "ISC"
+}
